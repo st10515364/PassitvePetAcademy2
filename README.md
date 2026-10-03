@@ -5,3 +5,12 @@ using the academy's Deep Teal, Soft Teal, Warm Orange, Warm Yellow, Dark Grey an
 design follows User-Centred Design principles and all code is version-controlled on GitHub as a group..
 
 In the code section, where other group members provided their code has not been displayed but we all worked together 
+in order to gain access of the app, there are build in password and emails that grant access
+1. email:kamo@gmail.com
+2. password:@Kamo2
+
+3. email:emeris@gmail.com
+4. password:Emeris@School1
+
+   those are the only details that will grant access to log in
+    
