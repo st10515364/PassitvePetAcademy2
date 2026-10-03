@@ -13,4 +13,7 @@ in order to gain access of the app, there are build in password and emails that 
 4. password:Emeris@School1
 
    those are the only details that will grant access to log in
+
+
+   ![image alt](https://github.com/st10515364/PassitvePetAcademy2/blob/fb75311f482a57175f5fbd7cb9d55809f8c82c43/Screenshot%202026-10-03%20125053.png)
     
