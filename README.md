@@ -16,4 +16,5 @@ in order to gain access of the app, there are build in password and emails that 
 
 
    ![image alt](https://github.com/st10515364/PassitvePetAcademy2/blob/fb75311f482a57175f5fbd7cb9d55809f8c82c43/Screenshot%202026-10-03%20125053.png)
+   ![image alt](https://github.com/st10515364/PassitvePetAcademy2/blob/9bc644e8a64df390333d57b4ab1414fd760407dd/Screenshot%202026-10-03%20130116.png)
     
