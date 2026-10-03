@@ -8,213 +8,11 @@
     tools:context=".screen6">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="376dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="73dp"
-        android:layout_marginEnd="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:srcCompat="@android:color/holo_orange_light" />
-
-    <Button
-        android:id="@+id/btnBrowseCourses"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#2B7A78"
-        android:text="Browse Courses"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="226dp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        style="@android:style/Widget.TextView.PopupMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Train your pet the right way"
-        android:textColor="#2B7A78"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="161dp" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="We provide best training programs."
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="185dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        style="@android:style/Widget.TextView.PopupMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Our Services"
-        android:textColor="#2B7A78"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="314dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="102dp"
-        android:layout_height="97dp"
-        app:srcCompat="@drawable/pet_photo_01_happy_dog"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="351dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="99dp"
-        android:layout_height="98dp"
-        app:srcCompat="@drawable/pet_photo_02_dogs_playing"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="351dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="99dp"
-        android:layout_height="98dp"
-        app:srcCompat="@drawable/pet_photo_06_pet_toy"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="352dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="414dp"
-        android:layout_height="72dp"
-        app:srcCompat="@color/design_default_color_secondary_variant"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="661dp" />
-
-    <Button
-        android:id="@+id/btnHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Home"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="676dp" />
-
-    <Button
-        android:id="@+id/btnCourses"
-        android:layout_width="99dp"
-        android:layout_height="46dp"
-        android:backgroundTint="#F4A261"
-        android:text="Course"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/btnQoute"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Qoute"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/btnProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Profile"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="676dp" />
-
-    <TextView
-        android:id="@+id/textView19"
-        style="@android:style/Widget.TextView.PopupMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Most Popular Courses"
-        android:textColor="#2B7A78"
-        android:textStyle="normal|bold"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="456dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="85dp"
-        android:layout_height="68dp"
-        app:srcCompat="@drawable/pet_photo_04_pet_treats"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="485dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="83dp"
-        android:layout_height="71dp"
-        app:srcCompat="@drawable/pet_photo_08_dog"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="564dp" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Obedience Training"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="485dp" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Animal Behaviour"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="564dp" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2 to 6 weeks of training"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="515dp" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2 to 6 weeks of training"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="583dp" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="R1 200"
-        android:textColor="#E9C46A"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="616dp" />
-
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="R850"
-        android:textColor="#E9C46A"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="534dp" />
-
-    <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="68dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="3dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pawsitive_logo" />
@@ -224,12 +22,257 @@
         style="@android:style/Widget.TextView.PopupMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="16dp"
-        android:text="Paswsitive Pet Academy"
+        android:layout_marginStart="8dp"
+        android:text="Pawsitive Pet Academy"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBanner"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F4A261"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train your pet the right way"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="We provide best training programs."
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <Button
+                android:id="@+id/btnBrowseCourses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#2B7A78"
+                android:text="Browse Courses"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView18"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Our Services"
+        android:textColor="#2B7A78"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardBanner" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/pet_photo_01_happy_dog" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/pet_photo_02_dogs_playing" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/pet_photo_06_pet_toy" />
+
+    <TextView
+        android:id="@+id/textView19"
+        style="@android:style/Widget.TextView.PopupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Most Popular Courses"
+        android:textColor="#2B7A78"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/pet_photo_04_pet_treats" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Obedience Training"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 to 6 weeks of training"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R850"
+        android:textColor="#E9C46A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/pet_photo_08_dog" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Animal Behaviour"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 to 6 weeks of training"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R1 200"
+        android:textColor="#E9C46A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <View
+        android:id="@+id/bottomNavBg"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#2B7A78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnHome"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg"
+        app:layout_constraintEnd_toStartOf="@+id/btnCourses"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavBg"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg" />
+
+    <Button
+        android:id="@+id/btnCourses"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg"
+        app:layout_constraintEnd_toStartOf="@+id/btnQoute"
+        app:layout_constraintStart_toEndOf="@+id/btnHome"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg" />
+
+    <Button
+        android:id="@+id/btnQoute"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfile"
+        app:layout_constraintStart_toEndOf="@+id/btnCourses"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg"
+        app:layout_constraintEnd_toEndOf="@+id/bottomNavBg"
+        app:layout_constraintStart_toEndOf="@+id/btnQoute"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

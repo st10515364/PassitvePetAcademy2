@@ -11,37 +11,49 @@
         android:id="@+id/btnBack8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#2B7A78"
         android:text="Back"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get a Qoute"
+        android:layout_marginStart="16dp"
+        android:text="Get a Quote"
+        android:textColor="#2B7A78"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack8"
+        app:layout_constraintStart_toEndOf="@+id/btnBack8"
+        app:layout_constraintTop_toTopOf="@+id/btnBack8" />
 
     <TextView
         android:id="@+id/textView28"
-        android:layout_width="379dp"
-        android:layout_height="37dp"
-        android:text="Select the corses you're intrested in and we'll calculate your qoute instantly."
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="76dp" />
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="Select the courses you're interested in and we'll calculate your quote instantly."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack8" />
 
+    <!-- Course 1 -->
     <TextView
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Obediance Training"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Obedience Training"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="142dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
         android:id="@+id/textView30"
@@ -50,17 +62,29 @@
         android:text="R850"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="171dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
+    <CheckBox
+        android:id="@+id/checkBoxObedience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView29" />
+
+    <!-- Course 2 -->
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:text="Dog Walking Service"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
     <TextView
         android:id="@+id/textView32"
@@ -69,17 +93,29 @@
         android:text="R500"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="230dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
+    <CheckBox
+        android:id="@+id/checkBoxDogWalk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView31" />
+
+    <!-- Course 3 -->
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:text="Animal Behaviour"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
     <TextView
         android:id="@+id/textView34"
@@ -88,17 +124,29 @@
         android:text="R1 200"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
+    <CheckBox
+        android:id="@+id/checkBoxBehaviour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+    <!-- Course 4 -->
     <TextView
         android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
         android:text="Puppy Basics"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <TextView
         android:id="@+id/textView36"
@@ -107,144 +155,164 @@
         android:text="R650"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="360dp" />
-
-    <CheckBox
-        android:id="@+id/checkBoxObedience"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="346dp"
-        tools:layout_editor_absoluteY="142dp" />
-
-    <CheckBox
-        android:id="@+id/checkBoxDogWalk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="346dp"
-        tools:layout_editor_absoluteY="211dp" />
-
-    <CheckBox
-        android:id="@+id/checkBoxBehaviour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <CheckBox
         android:id="@+id/checkBoxPuppy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="346dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView35" />
 
+    <!-- Subtotal -->
     <TextView
         android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
         android:text="Subtotal"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="432dp" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" Discount(5%)"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="453dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
     <TextView
         android:id="@+id/textViewSubtotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="432dp" />
+        android:layout_marginEnd="16dp"
+        android:text="R0.00"
+        app:layout_constraintBottom_toBottomOf="@+id/textView37"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+    <!-- Discount -->
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Discount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
     <TextView
         android:id="@+id/textViewDiscount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:layout_marginEnd="16dp"
+        android:text="R0.00"
+        app:layout_constraintBottom_toBottomOf="@+id/textView38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView38" />
 
+    <!-- Total -->
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:text="Total"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="508dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
     <TextView
         android:id="@+id/textViewTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="508dp" />
+        android:layout_marginEnd="16dp"
+        android:text="R0.00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView41" />
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Discount: 5% off 2 courses - 10% off 3 courses"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="554dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="Discount: 5% off 2 courses - 10% off 3+ courses"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
 
     <Button
         android:id="@+id/btnRequestQoute"
-        android:layout_width="329dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#2B7A78"
-        android:text="Request This Qoute"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="607dp" />
+        android:text="Request This Quote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="410dp"
-        android:layout_height="68dp"
-        app:srcCompat="@color/design_default_color_secondary_variant"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="667dp" />
+    <View
+        android:id="@+id/bottomNavBg8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#2B7A78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnHome8"
-        android:layout_width="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
         android:text="Home"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="676dp" />
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg8"
+        app:layout_constraintEnd_toStartOf="@+id/btnCourses8"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavBg8"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg8" />
 
     <Button
         android:id="@+id/btnCourses8"
-        android:layout_width="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
         android:text="Courses"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="676dp" />
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg8"
+        app:layout_constraintEnd_toStartOf="@+id/btnQoutes8"
+        app:layout_constraintStart_toEndOf="@+id/btnHome8"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg8" />
 
     <Button
         android:id="@+id/btnQoutes8"
-        android:layout_width="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Qoutes"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="676dp" />
+        android:text="Quote"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg8"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfile8"
+        app:layout_constraintStart_toEndOf="@+id/btnCourses8"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg8" />
 
     <Button
         android:id="@+id/btnProfile8"
-        android:layout_width="wrap_content"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
         android:text="Profile"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="673dp" />
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg8"
+        app:layout_constraintEnd_toEndOf="@+id/bottomNavBg8"
+        app:layout_constraintStart_toEndOf="@+id/btnQoutes8"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg8" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

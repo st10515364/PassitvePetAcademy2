@@ -7,130 +7,59 @@
     android:layout_height="match_parent"
     tools:context=".screen7">
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="412dp"
-        android:layout_height="59dp"
-        app:srcCompat="@color/design_default_color_secondary_variant"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="672dp" />
+    <Button
+        android:id="@+id/btnBack7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2B7A78"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="16dp"
         android:text="Courses"
+        android:textColor="#2B7A78"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack7"
         app:layout_constraintStart_toEndOf="@+id/btnBack7"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/btnBack7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:backgroundTint="#2B7A78"
-        android:text="Back"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintTop_toTopOf="@+id/btnBack7" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="101dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnBack7"
         app:srcCompat="@drawable/pet_photo_01_happy_dog" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="101dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/pet_photo_02_dogs_playing"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="174dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="101dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/pet_photo_06_pet_toy"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="278dp" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="101dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/pet_photo_05_pet_bed"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="374dp" />
-
-    <Button
-        android:id="@+id/btnHome7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Home"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="679dp" />
-
-    <Button
-        android:id="@+id/btnCourses7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Courses"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="679dp" />
-
-    <Button
-        android:id="@+id/btnQoute7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Qoute"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="679dp" />
-
-    <Button
-        android:id="@+id/btnProfile7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Profile"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="677dp" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="Obedience Training"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="76dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Animal Behaviour"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="174dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Build a well-behaved dog"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="102dp" />
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView53"
@@ -139,16 +68,38 @@
         android:text="R850"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/pet_photo_02_dogs_playing" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Animal Behaviour"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
 
     <TextView
         android:id="@+id/textView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Understand your pet's psychology"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="200dp" />
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView55"
@@ -157,25 +108,38 @@
         android:text="R1 200"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="230dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/pet_photo_06_pet_toy" />
 
     <TextView
         android:id="@+id/textView56"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="Dog Walking Service"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="281dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
 
     <TextView
         android:id="@+id/textView57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Daily dog walking"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="303dp" />
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
 
     <TextView
         android:id="@+id/textView58"
@@ -184,25 +148,38 @@
         android:text="R500"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/pet_photo_05_pet_bed" />
 
     <TextView
         android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="Puppy Basics"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="374dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
 
     <TextView
         android:id="@+id/textView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start your puppy on the right paw"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView59"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
 
     <TextView
         android:id="@+id/textView61"
@@ -211,6 +188,64 @@
         android:text="R650"
         android:textColor="#F4A261"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="436dp" />
+        app:layout_constraintStart_toStartOf="@+id/textView60"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <View
+        android:id="@+id/bottomNavBg7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#2B7A78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnHome7"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg7"
+        app:layout_constraintEnd_toStartOf="@+id/btnCourses7"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavBg7"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg7" />
+
+    <Button
+        android:id="@+id/btnCourses7"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg7"
+        app:layout_constraintEnd_toStartOf="@+id/btnQoute7"
+        app:layout_constraintStart_toEndOf="@+id/btnHome7"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg7" />
+
+    <Button
+        android:id="@+id/btnQoute7"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg7"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfile7"
+        app:layout_constraintStart_toEndOf="@+id/btnCourses7"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg7" />
+
+    <Button
+        android:id="@+id/btnProfile7"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg7"
+        app:layout_constraintEnd_toEndOf="@+id/bottomNavBg7"
+        app:layout_constraintStart_toEndOf="@+id/btnQoute7"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

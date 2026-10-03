@@ -11,106 +11,143 @@
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="My Profile"
+        android:textColor="#2B7A78"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="410dp"
-        android:layout_height="67dp"
-        app:srcCompat="@color/design_default_color_secondary_variant"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="666dp" />
-
-    <Button
-        android:id="@+id/btnHome9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Home"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/btnCourses9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Courses"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/btnQoute9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Qoute"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/btnProfile9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#F4A261"
-        android:text="Profile"
-        tools:layout_editor_absoluteX="319dp"
-        tools:layout_editor_absoluteY="678dp" />
+        android:id="@+id/imageView20"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44"
+        app:srcCompat="@drawable/pic3" />
 
     <TextView
         android:id="@+id/textViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="197dp" />
+        android:layout_marginTop="12dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
     <TextView
         android:id="@+id/textViewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="226dp" />
+        android:layout_marginTop="4dp"
+        android:text="Email"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
 
     <TextView
         android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My Booking"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="My Bookings"
         android:textColor="#2B7A78"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="315dp" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="307dp"
-        android:layout_height="128dp"
-        app:srcCompat="@drawable/pic3"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="62dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
 
     <TextView
         android:id="@+id/textViewMyBookings"
-        android:layout_width="313dp"
-        android:layout_height="156dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="345dp" />
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="No courses selected"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
     <Button
         android:id="@+id/btnLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#2B7A78"
         android:text="Logout"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="593dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMyBookings" />
+
+    <View
+        android:id="@+id/bottomNavBg9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#2B7A78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnHome9"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg9"
+        app:layout_constraintEnd_toStartOf="@+id/btnCourses9"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavBg9"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg9" />
+
+    <Button
+        android:id="@+id/btnCourses9"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg9"
+        app:layout_constraintEnd_toStartOf="@+id/btnQoute9"
+        app:layout_constraintStart_toEndOf="@+id/btnHome9"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg9" />
+
+    <Button
+        android:id="@+id/btnQoute9"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg9"
+        app:layout_constraintEnd_toStartOf="@+id/btnProfile9"
+        app:layout_constraintStart_toEndOf="@+id/btnCourses9"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg9" />
+
+    <Button
+        android:id="@+id/btnProfile9"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavBg9"
+        app:layout_constraintEnd_toEndOf="@+id/bottomNavBg9"
+        app:layout_constraintStart_toEndOf="@+id/btnQoute9"
+        app:layout_constraintTop_toTopOf="@+id/bottomNavBg9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

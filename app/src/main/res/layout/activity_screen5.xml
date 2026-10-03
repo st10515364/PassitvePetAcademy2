@@ -7,105 +7,107 @@
     android:layout_height="match_parent"
     tools:context=".screen5">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="Create Account"
-        android:textColor="#2B7A78"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/btnBack"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#2B7A78"
         android:text="Back"
-        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Create Account"
+        android:textColor="#2B7A78"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
 
     <EditText
         android:id="@+id/edtName"
-        android:layout_width="377dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="17dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Full Name"
-        android:inputType="text"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnBack" />
 
     <EditText
         android:id="@+id/edtEmailAddress"
-        android:layout_width="377dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="17dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtName" />
 
     <EditText
         android:id="@+id/edtPhoneNumber"
-        android:layout_width="377dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="17dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint=" Phone Number"
-        android:inputType="text"
+        android:hint="Phone Number"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtEmailAddress" />
 
     <EditText
         android:id="@+id/edtPasswordCreate"
-        android:layout_width="377dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="18dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="text"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPhoneNumber" />
 
     <EditText
         android:id="@+id/edtComfirmPassword"
-        android:layout_width="377dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="18dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
         android:ems="10"
-        android:hint="Comfirm Password"
-        android:inputType="text"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPasswordCreate" />
 
     <CheckBox
         android:id="@+id/checkBoxAgree"
-        android:layout_width="256dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="132dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
         android:text="I agree to the terms &amp; conditions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,37 +115,39 @@
 
     <Button
         android:id="@+id/btnSignup"
-        android:layout_width="380dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="14dp"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
         android:backgroundTint="#F4A261"
         android:text="Sign Up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxAgree" />
 
-    <Button
-        android:id="@+id/btnBackToLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="79dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="85dp"
-        android:backgroundTint="#3AAFA9"
-        android:text="Login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
-
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:text="Already have an account?"
+        app:layout_constraintEnd_toStartOf="@+id/btnBackToLogin"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+
+    <Button
+        android:id="@+id/btnBackToLogin"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Login"
+        android:textColor="#3AAFA9"
+        app:layout_constraintBottom_toBottomOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,7 @@ class screen3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_screen3)
+
         nextButton = findViewById(R.id.btnNext3)
 
         nextButton.setOnClickListener {
